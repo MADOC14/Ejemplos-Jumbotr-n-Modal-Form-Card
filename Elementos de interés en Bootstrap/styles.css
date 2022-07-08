@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: rgba(130, 203, 35, 0.275);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.modal-dialog {
+    background-color: rgba(0, 105, 128, 0.345);
+}
+.modal-content {
+    color: white;
+    background-color: #00a7a155;
+}
+.modal-body {
+    color: white;
+    background-color: rgba(0, 128, 98, 0.537);
+}
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #00a72f72;
+}
+.btn-ttc:focus {
+    box-shadow:none;
+}
+.formulario-entrada {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea:focus, input:focus, input[type]:focus {
+
+    border-color: rgb(153, 255, 0);
+
+    box-shadow: 0 1px 1px rgba(160, 23, 229, 0.075)inset, 0 0 8px rgba(170, 255, 0, 0.6);
+
+    outline: 0 none;
+
+}
